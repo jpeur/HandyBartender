@@ -89,17 +89,16 @@ class drinks_Menu2Delegate extends WatchUi.Menu2InputDelegate {
             recipe_list = ["2 oz orange juice", "2 oz champagne", "orange slice"];
         }
 
-        var menu = new WatchUi.CheckboxMenu({:title=>"Ingredients"});
+        var menu = new WatchUi.Menu2({:title=>"Ingredients"});
         var delegate = new recipe_Menu2Delegate();
 
         for(var i = 0; i < recipe_list.size(); i++){
             System.println(recipe_list[i]);
             menu.addItem(
-                new CheckboxMenuItem(
+                new MenuItem(
                     recipe_list[i],
                     null,
                     "ingr" + i,
-                    false,
                     {}
                 )
             );
