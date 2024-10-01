@@ -1,4 +1,5 @@
 import Toybox.WatchUi;
+import Toybox.Lang;
 import Toybox.System;
 
 class drinks_Menu2Delegate extends WatchUi.Menu2InputDelegate {
@@ -105,7 +106,6 @@ class drinks_Menu2Delegate extends WatchUi.Menu2InputDelegate {
         }
 
         WatchUi.pushView(menu, delegate, WatchUi.SLIDE_UP);
-        return true;
     }
 
     function onBack() as Void {

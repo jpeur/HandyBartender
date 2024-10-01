@@ -1,4 +1,5 @@
 <layout id="MainLayout">
-    <label x="center" y="5" text="@Strings.prompt" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
-    <bitmap id="id_monkey" x="center" y="30" filename="../drawables/monkey.png" />
+    <bitmap id="glass" x="center" y="20%" filename="../drawables/cocktail3.png" />
+    <label x="center" y="45%" font="Graphics.FONT_SMALL" text="@Strings.prompt" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label x="center" y="55%" font="Graphics.FONT_SMALL" text="@Strings.prompt_line_2" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
 </layout>
