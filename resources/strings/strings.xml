@@ -1,7 +1,7 @@
 <strings>
     <string id="AppName">better_handy_bartender</string>
 
-    <string id="prompt">Let's make some drinks!</string>
+    <string id="prompt">Let's make some drinks!\nClick Start</string>
     <string id="prompt_line_2">Click Start</string>
 
 

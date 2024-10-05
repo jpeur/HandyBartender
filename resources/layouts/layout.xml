@@ -1,5 +1,7 @@
 <layout id="MainLayout">
-    <bitmap id="glass" x="center" y="20%" filename="../drawables/cocktail3.png" />
-    <label x="center" y="45%" font="Graphics.FONT_SMALL" text="@Strings.prompt" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
-    <label x="center" y="55%" font="Graphics.FONT_SMALL" text="@Strings.prompt_line_2" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <bitmap id="glass" x="center" y="10%" filename="../drawables/martini_glass_transparent_background.png" />
+    <!-- <label x="center" y="50%" font="Graphics.FONT_SMALL" text="@Strings.prompt" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label x="center" y="60%" font="Graphics.FONT_SMALL" text="@Strings.prompt_line_2" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" /> -->
+    <text-area id="textArea" x="center" y="50%" width="80%" height="40%" font="Graphics.FONT_SMALL" text="@Strings.prompt" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <!-- <text-area id="textArea2" x="center" y="60%" width="80%" height="40%" font="Graphics.FONT_SMALL" text="@Strings.prompt_line_2" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" /> -->
 </layout>

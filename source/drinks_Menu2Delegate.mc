@@ -29,6 +29,7 @@ class drinks_Menu2Delegate extends WatchUi.Menu2InputDelegate {
             "cosm" => ["2 oz vodka", "1 oz triple sec", "1 oz cranberry juice", "1 oz lime juice", "lime twist"],
             "mule" => ["2 oz vodka", "1 oz lime juice", "4 oz ginger beer", "lime wedge"],
             "scre" => ["2 oz vodka", "4 oz orange juice", "orange slice"],
+            "whit" => ["2 oz vodka", "1 oz coffee liqueur", "1 oz heavy cream"],
             // Whiskey-based drinks
             "boul" => ["1 oz bourbon", "1 oz sweet vermouth", "1 oz Campari", "orange twist"],
             "manh" => ["2 oz rye whiskey", "1 oz sweet vermouth", "2 dashes Angostura bitters", "cherry"],
@@ -44,15 +45,6 @@ class drinks_Menu2Delegate extends WatchUi.Menu2InputDelegate {
 
         // Fetch the selected recipe from the dictionary
         var recipe_list = recipe_dict[item.getId()];
-
-        // Handle the case where the recipe is not found
-        if (recipe_list == null) {
-            System.println("Recipe not found");
-            return;
-        }
-
-        // Print the recipe name and ingredients
-        System.println("Recipe: " + item.getId());
 
         var menu = new WatchUi.Menu2({:title => "Ingredients"});
         var delegate = new recipe_Menu2Delegate();

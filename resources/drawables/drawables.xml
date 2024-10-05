@@ -1,3 +1,4 @@
 <drawables>
-    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="martini_glass_icon" filename="martini_glass_transparent_background_logo_size.png" />
+    <bitmap id="martini_glass_icon_big" filename="martini_glass_transparent_background.png" />
 </drawables>

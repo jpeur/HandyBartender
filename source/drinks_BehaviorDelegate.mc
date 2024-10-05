@@ -12,20 +12,12 @@ class drinks_BehaviorDelegate extends WatchUi.BehaviorDelegate {
         var menu = new WatchUi.Menu2({:title=>"Drink List"});
         var delegate;
 
-        // Tequila-based drinks
+        // Aperol-based drinks
         menu.addItem(
             new MenuItem(
-                "Margarita",
-                "Tequila",
-                "marg",
-                {}
-            )
-        );
-        menu.addItem(
-            new MenuItem(
-                "Paloma",
-                "Tequila",
-                "palo",
+                "Aperol Spritz",
+                "Aperol",
+                "aper",
                 {}
             )
         );
@@ -72,6 +64,16 @@ class drinks_BehaviorDelegate extends WatchUi.BehaviorDelegate {
             )
         );
 
+        // Prosecco-based drinks
+        menu.addItem(
+            new MenuItem(
+                "Bellini",
+                "Prosecco",
+                "bell",
+                {}
+            )
+        );
+
         // Rum-based drinks
         menu.addItem(
             new MenuItem(
@@ -106,6 +108,24 @@ class drinks_BehaviorDelegate extends WatchUi.BehaviorDelegate {
             )
         );
 
+        // Tequila-based drinks
+        menu.addItem(
+            new MenuItem(
+                "Margarita",
+                "Tequila",
+                "marg",
+                {}
+            )
+        );
+        menu.addItem(
+            new MenuItem(
+                "Paloma",
+                "Tequila",
+                "palo",
+                {}
+            )
+        );
+
         // Vodka-based drinks
         menu.addItem(
             new MenuItem(
@@ -125,6 +145,14 @@ class drinks_BehaviorDelegate extends WatchUi.BehaviorDelegate {
         );
         menu.addItem(
             new MenuItem(
+                "Espresso Martini",
+                "Vodka",
+                "espr",
+                {}
+            )
+        );
+        menu.addItem(
+            new MenuItem(
                 "Moscow Mule",
                 "Vodka",
                 "mule",
@@ -139,6 +167,14 @@ class drinks_BehaviorDelegate extends WatchUi.BehaviorDelegate {
                 {}
             )
         );
+        menu.addItem(
+            new MenuItem(
+                "White Russian",
+                "Vodka",
+                "whit",
+                {}
+            )
+        );
 
         // Whiskey-based drinks
         menu.addItem(
@@ -146,6 +182,14 @@ class drinks_BehaviorDelegate extends WatchUi.BehaviorDelegate {
                 "Boulevardier",
                 "Whiskey",
                 "boul",
+                {}
+            )
+        );
+        menu.addItem(
+            new MenuItem(
+                "Irish Coffee",
+                "Whiskey",
+                "iris",
                 {}
             )
         );
@@ -170,48 +214,6 @@ class drinks_BehaviorDelegate extends WatchUi.BehaviorDelegate {
                 "Whiskey Sour",
                 "Whiskey",
                 "whis",
-                {}
-            )
-        );
-
-        // Other Liquors and Miscellaneous
-        menu.addItem(
-            new MenuItem(
-                "Aperol Spritz",
-                "Aperol",
-                "aper",
-                {}
-            )
-        );
-        menu.addItem(
-            new MenuItem(
-                "Bellini",
-                "Prosecco",
-                "bell",
-                {}
-            )
-        );
-        menu.addItem(
-            new MenuItem(
-                "Espresso Martini",
-                "Vodka",
-                "espr",
-                {}
-            )
-        );
-        menu.addItem(
-            new MenuItem(
-                "Irish Coffee",
-                "Whiskey",
-                "iris",
-                {}
-            )
-        );
-        menu.addItem(
-            new MenuItem(
-                "Mimosa",
-                "Champagne",
-                "mimo",
                 {}
             )
         );
